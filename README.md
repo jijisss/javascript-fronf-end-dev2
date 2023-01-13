@@ -1504,5 +1504,3 @@ export default App;
 템플릿 리터럴로 태그 함수 h1 을 실행해서, StyledH1 이라는 컴포넌트가 만들어진다.
 App 컴포넌트를 렌더링하면 StyledH1 컴포넌트도 렌더링한다.
 StyledH1 컴포넌트에서는 CSS 코드를 생성해서 <style> 태그로 넣는다. 이때 함수로 삽입된 값(${({ dark }) => dark && 'background-color: black;'} 부분)은 함수이기 때문에, Props를 가지고 실행해서 CSS로 만든다. 우리 코드에서는 dark 라는 값이 있기 때문에, CSS에는 background-color: black; 이라는 값으로 반영된다.
-
-하하하하하하하하하하한
